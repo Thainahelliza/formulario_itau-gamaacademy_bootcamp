@@ -1,8 +1,9 @@
-Formulario HTML para cadastro.
-Recursos utilizados:
-HTML
-CSS
-JavaScript
+<h1> Formulario HTML para cadastro. </h1>
+
+<h2>Recursos utilizados: </h2>
+-HTML
+-CSS
+-JavaScript
 
 Como utilizar:
 	Preencher os campos solicitados até o campo de CEP, 
