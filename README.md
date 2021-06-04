@@ -1,11 +1,11 @@
 <h1> Formulario HTML para cadastro. </h1>
 
 <h2>Recursos utilizados: </h2>
--HTML
--CSS
--JavaScript
+-HTML <br>
+-CSS <br>
+-JavaScript <br>
 
-Como utilizar:
+<h2> Como utilizar: </h2>
 	Preencher os campos solicitados até o campo de CEP, 
   o mesmo ao clicar no próximo campo preencherá automaticamente as 
   informações de endereço com base no CEP sendo necessário apenas 
