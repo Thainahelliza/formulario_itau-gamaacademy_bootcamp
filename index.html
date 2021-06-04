@@ -1,0 +1,148 @@
+<html lang="PT-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<link rel="stylesheet" href="style.css"/>
+		<title>Formulario</title>
+		<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+		<script src="cep.js"></script>
+		<script src="validate.js"></script>
+	</head>
+
+	<body>
+
+		<nav class="navbar">
+		 <h1>Formulario Itau</h1>
+		</nav>
+
+		<div class="panel">
+			<div class="panel-item p-img" > 
+				<img class="bg-img" src="image1.png" alt=""> 
+			</div> 
+
+		<form class="panel-item" action="">
+			<div class="campo-form" >
+				<label for="nome"> Nome: </label>
+				<br>
+				<input class="form-item" id="nome" type="text" required>
+			</div>
+			
+			<div class="campo-form" >
+				<label for="cpf"> CPF: </label>
+				<br>
+				<input class="form-item" type="text" id="cpf" required>
+			</div>
+
+			<div class="campo-form" >
+				<label for="rg"> RG: </label>
+				<br>
+				<input class="form-item" type="text" id="rg">
+			</div>
+
+			<div class="campo-form" >
+				<label for="sexo"> Sexo: </label>
+				<br>
+				<select class="form-item" id="sexo">
+					<option value="">Selecione</option>
+					<option value="">Masculino</option>
+					<option value="">Feminino</option>
+			</select>
+			</div>
+
+			<div class="campo-form" >
+				<label for="cep"> CEP: </label>
+				<br>
+				<input class="form-item" type="text" id="cep">
+			</div>
+
+			<div class="campo-form" >
+				<label for="endereco"> Endereço: </label>
+				<br>
+				<input class="form-item" type="text" id="endereco" required>
+			</div>
+
+			<div class="campo-form" >
+				<label for="numero"> Número: </label>
+				<br>
+				<input class="form-item" type="text" id="numero" required>
+			</div>
+
+			<div class="campo-form" >
+				<label for="bairro"> Bairro: </label>
+				<br>
+				<input class="form-item" type="text" id="bairro">
+			</div>
+
+			<div class="campo-form" >
+				<label for="cidade"> Cidade: </label>
+				<br>	
+				<input class="form-item" type="text" id="cidade">
+			</div>
+
+			<div class="campo-form" >
+				<label for="uf"> Estado: </label>
+				<br>
+				<select class="form-item" id="uf">
+					<option value="">Selecione</option>
+					<option value="AC">Acre</option>
+					<option value="AL">Alagoas</option>
+					<option value="AP">Amapá</option>
+					<option value="AM">Amazonas</option>
+					<option value="BA">Bahia</option>
+					<option value="CE">Ceará</option>
+					<option value="DF">Distrito Federal</option>
+					<option value="ES">Espirito Santo</option>
+					<option value="GO">Goiás</option>
+					<option value="MA">Maranhão</option>
+					<option value="MS">Mato Grosso do Sul</option>
+					<option value="MT">Mato Grosso</option>
+					<option value="MG">Minas Gerais</option>
+					<option value="PA">Pará</option>
+					<option value="PB">Paraíba</option>
+					<option value="PR">Paraná</option>
+					<option value="PE">Pernambuco</option>
+					<option value="PI">Piauí</option>
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="RN">Rio Grande do Norte</option>
+					<option value="RS">Rio Grande do Sul</option>
+					<option value="RO">Rondônia</option>
+					<option value="RR">Roraima</option>
+					<option value="SC">Santa Catarina</option>
+					<option value="SP">São Paulo</option>
+					<option value="SE">Sergipe</option>
+					<option value="TO">Tocantins</option>
+			</select>
+			</div>
+
+			<div class="campo-form" >
+				<label for="telFixo"> Telefone Fixo: </label>
+				<br>
+				<input class="form-item" type="text" id="telfixo" placeholder="(   )       -      ">
+			</div>
+
+			<div class="campo-form" >
+				<label for="telCel"> Telefone Celular: </label>
+				<br>
+				<input class="form-item" type="text" id="telCel" placeholder="(   )        -     " required>
+			</div>
+				
+			<br>
+
+				<div class="campo-form">
+
+				<div class="button" id="envio" type="submit" onclick="validacao()"> Finalizar </div>
+				
+				</div>
+		
+		</form>
+		</div>
+
+	</body>
+
+	<!-- <script>
+		document.getElementById("envio").addEventListener("click", function(event){
+		  event.preventDefault()
+		});
+		</script> -->
+
+</html>
